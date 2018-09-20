@@ -134,8 +134,7 @@ Navigate to "My Apps" on Discord (https://discordapp.com/developers/applications
 Click new app, give it a name and description. 
 Click create a bot user.
 Copy the token generated on that page and open TIPBOT and enter it when prompted.
-To add a bot user to your account you'll need to get the client id for the bot which is also on that page. 
-Then navigate to this url (https://discordapp.com/oauth2/authorize?client_id=CLIENTID&scope=bot) and replace CLIENTID in the url with the client url on the page.
+Then literally just replace the token you renewed in the core https://github.com/electronero-pulse/Monero-TipBot/blob/8e4df8303e0b04e23b17ba0d2335bd9a4a479b49/Coins/electronero.json#L8
 
 The bot should now be ready to run. Launch it, enter the token, and type `!balance` and if it returns a balance of 0 then the communication between the bot and the RPC is working correctly. 
 
